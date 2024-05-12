@@ -1,9 +1,5 @@
 ﻿using Colossal;
-using TrafficUnlocker;
-using Game.Settings;
-using Game.UI.Widgets;
 using System.Collections.Generic;
-using Setting = TrafficUnlocker.Setting;
 
 namespace TrafficUnlocker.Locales
 {

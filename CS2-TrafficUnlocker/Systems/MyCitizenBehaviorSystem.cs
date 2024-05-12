@@ -1,29 +1,24 @@
-﻿using Game.Agents;
+﻿using Game;
+using Game.Agents;
 using Game.Buildings;
 using Game.Citizens;
 using Game.City;
 using Game.Common;
 using Game.Companies;
+using Game.Economy;
 using Game.Events;
 using Game.Pathfind;
 using Game.Prefabs;
 using Game.Simulation;
 using Game.Tools;
 using Game.Vehicles;
-using Game;
-using System;
-using System.Collections.Generic;
 using System.Runtime.CompilerServices;
-using System.Text;
 using Unity.Burst.Intrinsics;
-using Unity.Burst;
 using Unity.Collections;
 using Unity.Entities;
 using Unity.Jobs;
 using Unity.Mathematics;
 using UnityEngine;
-using UnityEngine.Scripting;
-using Game.Economy;
 
 namespace TrafficUnlocker.Systems
 {

@@ -1,4 +1,5 @@
-﻿using Game.Buildings;
+﻿using Game;
+using Game.Buildings;
 using Game.Citizens;
 using Game.City;
 using Game.Common;
@@ -7,19 +8,13 @@ using Game.Prefabs;
 using Game.Simulation;
 using Game.Tools;
 using Game.Triggers;
-using Game;
-using System;
-using System.Collections.Generic;
 using System.Runtime.CompilerServices;
-using System.Text;
 using Unity.Burst.Intrinsics;
-using Unity.Burst;
 using Unity.Collections;
 using Unity.Entities;
 using Unity.Jobs;
 using Unity.Mathematics;
 using UnityEngine;
-using UnityEngine.Scripting;
 
 namespace TrafficUnlocker.Systems
 {

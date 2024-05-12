@@ -1,8 +1,5 @@
 ﻿using Game;
 using Game.Prefabs;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using Unity.Entities;
 
 namespace TrafficUnlocker.Systems
