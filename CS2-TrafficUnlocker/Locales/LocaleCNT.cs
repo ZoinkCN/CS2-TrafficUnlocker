@@ -26,6 +26,10 @@ namespace TrafficUnlocker.Locales
 
                 { m_Setting.GetOptionLabelLocaleID(nameof(Setting.LeisureProbability)), "閒置概率" },
                 { m_Setting.GetOptionDescLocaleID(nameof(Setting.LeisureProbability)), "設置市民閒置的概率。範圍從 0 到 100。" },
+
+                { m_Setting.GetOptionLabelLocaleID(nameof(Setting.Reset)), "重設" },
+                { m_Setting.GetOptionDescLocaleID(nameof(Setting.Reset)), "將所有參數重設爲默認值" },
+                { m_Setting.GetOptionWarningLocaleID(nameof(Setting.Reset)), "是否重設所有參數?" },
             };
         }
 

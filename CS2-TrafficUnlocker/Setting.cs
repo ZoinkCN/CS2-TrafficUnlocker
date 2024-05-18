@@ -25,6 +25,10 @@ namespace TrafficUnlocker
         [SettingsUISlider(min = 0, max = 100, step = 1, scalarMultiplier = 1, unit = Unit.kInteger)]
         public int LeisureProbability { get; set; }
 
+        [SettingsUIButton]
+        [SettingsUIConfirmation]
+        public bool Reset { set { SetDefaults(); } }
+
         public float GetRealTrafficReduction()
         {
             return TrafficReduction / 10000f;

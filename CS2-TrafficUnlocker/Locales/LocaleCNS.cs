@@ -1,4 +1,5 @@
 ﻿using Colossal;
+using Game.Settings;
 using System.Collections.Generic;
 
 namespace TrafficUnlocker.Locales
@@ -26,6 +27,10 @@ namespace TrafficUnlocker.Locales
 
                 { m_Setting.GetOptionLabelLocaleID(nameof(Setting.LeisureProbability)), "闲置概率" },
                 { m_Setting.GetOptionDescLocaleID(nameof(Setting.LeisureProbability)), "设置市民闲置的概率。范围从 0 到 100。" },
+
+                { m_Setting.GetOptionLabelLocaleID(nameof(Setting.Reset)), "重置" },
+                { m_Setting.GetOptionDescLocaleID(nameof(Setting.Reset)), "将所有参数重置为默认值" },
+                { m_Setting.GetOptionWarningLocaleID(nameof(Setting.Reset)), "是否重置所有参数?" },
             };
         }
 

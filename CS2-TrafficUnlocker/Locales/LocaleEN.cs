@@ -26,6 +26,10 @@ namespace TrafficUnlocker.Locales
 
                 { m_Setting.GetOptionLabelLocaleID(nameof(Setting.LeisureProbability)), "LeisureProbability" },
                 { m_Setting.GetOptionDescLocaleID(nameof(Setting.LeisureProbability)), "Set the probability that citizens do leisure. Range form 0 to 100." },
+
+                { m_Setting.GetOptionLabelLocaleID(nameof(Setting.Reset)), "Reset" },
+                { m_Setting.GetOptionDescLocaleID(nameof(Setting.Reset)), "Reset all the parameters to defualt." },
+                { m_Setting.GetOptionWarningLocaleID(nameof(Setting.Reset)), "Do you want reset all the parameters?" },
             };
         }
 

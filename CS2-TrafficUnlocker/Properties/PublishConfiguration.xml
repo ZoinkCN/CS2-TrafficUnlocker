@@ -1,15 +1,33 @@
 ﻿<Publish>
 	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
-	<ModId Value="" />
+	<ModId Value="80709" />
 	<!--Name of the mod to display to players-->
-	<DisplayName Value="CS2_TrafficUnlocker" />
+	<DisplayName Value="TrafficUnlocker" />
 	<!--Short description of the mod-->
-	<ShortDescription Value="This is a short description" />
+	<ShortDescription Value="Control City Traffic Volume By 4 Factors" />
 	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
 	<!--LongDescription Value="This is a long description" /-->
 	<LongDescription>
-This is a long description
-	</LongDescription>
+# TrafficUnlocker
+# 交通解锁
+
+##  Control City Traffic Volume By 4 Factors
+## 由四个参数控制城市交通量
+
+* TrafficReduction: Larger values reduce citizens moving around more aggressively in large cities(0~0.1)
+* WorkProbability: The probability that employees going to work every day. The higher the value, the more employees will go to work every day.(0~100)
+* SchoolProbability: The probability that students go to school every day. The higher the value, the more students will go to school every day.(0~100)
+* LeisureProbability: (NOT SURE) The probability of citizens staying at home. The higher the value, the higher the probability that idle citizens will stay at home. (0~100)
+
+* 交通抑制: 交通抑制系数。数值越大，随着人口增长，对交通的抑制越大。（0~0.1）
+* 上班概率: 员工每天去上班的概率，数值越高，每天会有越多的员工去上班。(0~100)
+* 上学概率: 学生每天去学校上学的概率，数值越高，每天会有越多的学生去学校。（0~100）
+* 闲置概率: （不确定）市民宅家的概率，数值越高，空闲的市民宅在家里的概率越高。（0~100）
+
+**For the relationship between the four parameters with population growth, please refer to the following link: [CitiesSkyline II Traffic Factors Calculation](https://www.geogebra.org/classic/wnsua5kg)**
+
+**四个参数随人口增长的关系可参考以下链接：[天际线交通参数计算](https://www.geogebra.org/classic/wnsua5kg)**
+  </LongDescription>
 	<!--Thumbnail-->
 	<Thumbnail Value="Properties/Thumbnail.png" />
 	<!--Screenshot, can be set multiple times-->
@@ -19,15 +37,18 @@ This is a long description
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0" />
+	<ModVersion Value="1.1" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.0.*" />
 	<!--Dependency for the mod, can be set multiple times-->
 	<Dependency Id="" />
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
-	<ChangeLog Value="" />
+  <ChangeLog>
+Add a reset button
+添加一个重置按钮
+  </ChangeLog>
 	<!--ChangeLog>
 	</ChangeLog-->
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
-	<ExternalLink Type="" Url="" />
+	<ExternalLink Type="github" Url="https://github.com/ZoinkCN/CS2-TrafficUnlocker" />
 </Publish>
